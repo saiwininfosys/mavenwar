@@ -17,6 +17,13 @@
     </dependency>
   </dependencies>
   <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ftp</artifactId>
+         <version>2.10</version>
+      </extension>
+    </extensions>
     <finalName>webappRunnerSample</finalName>
     <plugins>
         <plugin>
