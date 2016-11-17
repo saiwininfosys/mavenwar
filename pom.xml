@@ -52,10 +52,10 @@
        </plugin>
     </plugins>
   </build>
-  <distributionManagement>
+  <!--<distributionManagement>
     <repository>
        <id>TomcatServer</id>
       <url>54.91.154.127:8080/manager/text</url>
      </repository>
-   </distributionManagement>
+   </distributionManagement>-->
 </project>
