@@ -50,7 +50,7 @@
        <plugin>
           <groupId>org.apache.tomcat.maven</groupId>
           <artifactId>tomcat7-maven-plugin</artifactId>
-          <version>2.2</version>
+          <version>7</version>
           <configuration>
             <url>54.91.154.127:8080/manager</url>
             <server>TomcatServer</server>
