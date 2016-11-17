@@ -50,8 +50,7 @@
   <distributionManagement>
     <repository>
        <id>TomcatServer</id>
-       <url>54.91.154.127:8080/manager/text</url>
-       <path>/mavenwar</path>
+      <url>54.91.154.127:8080/manager/text</url>
      </repository>
    </distributionManagement>
 </project>
