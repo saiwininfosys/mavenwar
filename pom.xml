@@ -52,7 +52,7 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>7</version>
           <configuration>
-            <url>54.165.61.116:8080</url>
+            <url>54.165.61.116:8080/manager</url>
             <server>TomcatServer</server>
             <path>/mavenwar</path>
           </configuration>
@@ -62,7 +62,7 @@
   <distributionManagement>
     <repository>
        <id>TomcatServer</id>
-       <url>54.165.61.116:8080</url>
+       <url>54.165.61.116:8080/manager</url>
      </repository>
    </distributionManagement>
 </project>
